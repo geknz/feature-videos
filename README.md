@@ -2,6 +2,12 @@
 
 Create product demo videos with your AI agent. Iterate in Flask, then render the final cut.
 
+[![Seven product demos in a two-row marquee](media/skill-marquee.gif)](https://github.com/geknz/feature-videos/raw/refs/heads/main/media/skill-marquee.mp4)
+
+[Watch or download the full-quality demo](https://github.com/geknz/feature-videos/raw/refs/heads/main/media/skill-marquee.mp4) · 36 seconds · 1440×1440 · 60 fps · silent
+
+Seven demos made with this workflow and its earlier versions: Scoreboard, Minigames, Netflix Streaks, Battle Pass, Responsible Gambling, Less ms Search and United Custom Web.
+
 Start with a **website, an app repository or Figma designs**, and describe the flow you want to show. The skill gives your agent a scene-based workflow, a reusable device frame, motion helpers and a renderer built for quick revisions.
 
 ## How it works
