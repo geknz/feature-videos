@@ -1,0 +1,69 @@
+{
+  "version": "1.1.0",
+  "style": "linear",
+  "scope": "editorial-camera-and-added-transitions",
+  "preserveProductAnimationPhysics": true,
+  "video": {
+    "durationSeconds": 10,
+    "durationRangeSeconds": [
+      8,
+      12
+    ],
+    "fps": 60,
+    "master": {
+      "width": 1080,
+      "height": 1350
+    },
+    "story": {
+      "width": 1080,
+      "height": 1920
+    },
+    "audio": false,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "crf": 17
+  },
+  "camera": {
+    "durationMs": 600,
+    "easing": "linear",
+    "maxCloseupRatio": 1.9,
+    "blurPx": 0,
+    "overshoot": 0,
+    "closeupScaleReference": [
+      2.35,
+      2.4
+    ]
+  },
+  "drawer": {
+    "durationMs": 500,
+    "easing": "linear"
+  },
+  "toast": {
+    "durationMs": 350,
+    "travelPx": 24,
+    "easing": "linear"
+  },
+  "press": {
+    "downMs": 80,
+    "upMs": 120,
+    "minScale": 0.98,
+    "maxHighlightOpacity": 0.05,
+    "easing": "linear"
+  },
+  "status": {
+    "durationMs": 200,
+    "easing": "linear"
+  },
+  "holds": {
+    "openingMs": 600,
+    "beforePressMs": 150,
+    "resultMs": 1200,
+    "loopSeamMs": 600
+  },
+  "limits": {
+    "maxFocusTargets": 2,
+    "maxPrimaryActions": 2
+  },
+  "devicePreset": "netflix-movie-device-v1",
+  "deviceSpec": "device-frame.json"
+}

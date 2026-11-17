@@ -1,0 +1,22 @@
+<!-- Shell fragment, not a complete product. Load device-frame.css AFTER product styles.
+     data-format accepts 4:5 or 9:16. Use exactly one status bar and one home indicator. -->
+<div class="feature-video-stage" data-format="4:5">
+  <div class="feature-video-device">
+    <div class="feature-video-screen">
+      <div class="feature-video-status" aria-hidden="true">
+        <span class="feature-video-time">9:41</span>
+        <div class="feature-video-status-icons">
+          <svg class="feature-video-signal" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="7.5" width="3" height="4.5" rx="1"/><rect x="5" y="5" width="3" height="7" rx="1"/><rect x="10" y="2.5" width="3" height="9.5" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+          <svg class="feature-video-wifi" viewBox="0 0 17 12" fill="currentColor"><path d="M.3 3.1a12.1 12.1 0 0 1 16.4 0 .42.42 0 0 1 .02.61l-1.3 1.3a.4.4 0 0 1-.55.02 9.5 9.5 0 0 0-12.74 0 .4.4 0 0 1-.55-.02l-1.3-1.3a.42.42 0 0 1 .02-.61Zm3.05 3.04a7.65 7.65 0 0 1 10.3 0 .4.4 0 0 1 .02.6l-1.3 1.3a.42.42 0 0 1-.56.03 5 5 0 0 0-6.62 0 .42.42 0 0 1-.56-.03l-1.3-1.3a.4.4 0 0 1 .02-.6Zm3.04 3.04a3.33 3.33 0 0 1 4.22 0 .4.4 0 0 1 .02.6l-1.84 1.84a.41.41 0 0 1-.58 0L6.37 9.78a.4.4 0 0 1 .02-.6Z"/></svg>
+          <svg class="feature-video-battery" viewBox="0 0 27 13" fill="currentColor"><rect x=".5" y=".5" width="23" height="12" rx="3.5" fill="none" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="20" height="9" rx="2"/><path d="M25 4.25v4.5a2.4 2.4 0 0 0 0-4.5Z" opacity=".4"/></svg>
+        </div>
+      </div>
+      <!-- Mount the product's existing content here. Preserve its own fonts/colors.
+           If it already renders a status bar, adapt that bar instead of duplicating this one.
+           Put this inside its positioned bottom navigation:
+           <div class="feature-video-home-indicator" aria-hidden="true"></div>
+      -->
+    </div>
+    <!-- Mount product overlays/drawers inside the device, as in the Netflix capture. -->
+  </div>
+</div>

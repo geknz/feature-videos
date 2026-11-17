@@ -1,0 +1,10 @@
+node_modules/
+.cache/
+out/
+qa/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.zip

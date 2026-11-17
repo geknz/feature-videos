@@ -1,0 +1,44 @@
+{
+  "width": 1080,
+  "height": 1350,
+  "profiles": {
+    "draft": {
+      "fps": 30,
+      "scale": 0.5,
+      "dpr": 1,
+      "crf": 23
+    },
+    "final": {
+      "fps": 60,
+      "scale": 1,
+      "dpr": 2,
+      "crf": 17
+    }
+  },
+  "scenes": [
+    {
+      "id": "context",
+      "duration": 2,
+      "entry": "src/scenes/context/index.js",
+      "checks": [
+        0,
+        0.6,
+        1.2,
+        1.9
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "result",
+      "duration": 2,
+      "entry": "src/scenes/result/index.js",
+      "checks": [
+        0,
+        0.6,
+        1.2,
+        1.9
+      ],
+      "dependencies": []
+    }
+  ]
+}

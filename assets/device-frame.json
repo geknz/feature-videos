@@ -1,0 +1,129 @@
+{
+  "version": "1.1.0",
+  "id": "netflix-movie-device-v1",
+  "kind": "custom-front-facing-css-mockup",
+  "hardwareModel": null,
+  "units": "CSS px before camera transform",
+  "device": {
+    "width": 390,
+    "height": 844,
+    "boxSizing": "border-box",
+    "borderRadius": 48,
+    "margin": 0,
+    "padding": 0,
+    "border": 0,
+    "background": "transparent",
+    "overflow": "hidden",
+    "boxShadow": "0 0 0 1px #ffffff38, 0 30px 70px #0009",
+    "transformOrigin": "50% 50%",
+    "rotationDegrees": 0,
+    "perspective": null
+  },
+  "dynamicIsland": {
+    "width": 112,
+    "height": 30,
+    "top": 12,
+    "left": 139,
+    "borderRadius": 30,
+    "background": "#000000",
+    "zIndex": 500,
+    "pointerEvents": "none"
+  },
+  "statusBar": {
+    "height": 54,
+    "padding": [
+      4,
+      28,
+      0,
+      32
+    ],
+    "time": "9:41",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Helvetica Neue\", sans-serif",
+    "fontSize": 17,
+    "fontWeight": 600,
+    "lineHeight": 22,
+    "letterSpacing": -0.4,
+    "fontVariantNumeric": "tabular-nums",
+    "color": "#ffffff",
+    "iconGap": 6,
+    "signalSize": [
+      18,
+      12
+    ],
+    "wifiSize": [
+      17,
+      12
+    ],
+    "batterySize": [
+      27,
+      13
+    ],
+    "iconStyle": "filled SVG silhouettes; battery outline and terminal at 0.4 opacity",
+    "viewBoxes": {
+      "signal": "0 0 18 12",
+      "wifi": "0 0 17 12",
+      "battery": "0 0 27 13"
+    }
+  },
+  "homeIndicator": {
+    "width": 120,
+    "height": 4,
+    "bottom": 5,
+    "left": "50%",
+    "transform": "translateX(-50%)",
+    "borderRadius": 4,
+    "background": "#ffffff",
+    "placement": "inside positioned product bottom bar; may be covered by product drawer"
+  },
+  "formats": {
+    "4:5": {
+      "stage": [
+        1080,
+        1350
+      ],
+      "left": 345,
+      "top": 253,
+      "scale": 1.28,
+      "visibleBounds": [
+        290.4,
+        134.84,
+        499.2,
+        1080.32
+      ]
+    },
+    "9:16": {
+      "stage": [
+        1080,
+        1920
+      ],
+      "left": 345,
+      "top": 538,
+      "scale": 1.7,
+      "visibleBounds": [
+        208.5,
+        242.6,
+        663,
+        1434.8
+      ]
+    }
+  },
+  "render": {
+    "deviceScaleFactor": 2,
+    "downsample": "Lanczos"
+  },
+  "referenceCloseups": [
+    {
+      "name": "Netflix toast",
+      "x": 0,
+      "y": -547.55,
+      "scale": 2.35
+    },
+    {
+      "name": "Netflix claim",
+      "x": 0,
+      "y": -703.2,
+      "scale": 2.4
+    }
+  ],
+  "motion": "Use linear motion.mjs; reference closeup targets are product-specific."
+}

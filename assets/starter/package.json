@@ -1,0 +1,16 @@
+{
+  "name": "feature-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "plan": "node scripts/render.mjs plan",
+    "check": "node scripts/render.mjs check",
+    "draft": "node scripts/render.mjs draft",
+    "final": "node scripts/render.mjs final",
+    "test": "node --test scripts/cache.test.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "1.48.2"
+  }
+}

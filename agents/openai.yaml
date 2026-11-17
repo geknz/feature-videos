@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature Videos"
+  short_description: "Презентации интерфейса в стиле серии feature demos"
+  default_prompt: "Используй $feature-videos, чтобы создать короткое презентационное видео одной фичи текущего продукта."

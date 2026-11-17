@@ -1,0 +1,92 @@
+/* Exact frame geometry extracted from Netflix movie.css + mobile.css.
+   CSS px before camera scale. Import after product CSS; keep these classes isolated. */
+.feature-video-stage {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+}
+.feature-video-device {
+  box-sizing: border-box;
+  position: absolute;
+  left: 345px;
+  top: 253px;
+  width: 390px;
+  height: 844px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 48px;
+  overflow: hidden;
+  background: transparent;
+  box-shadow: 0 0 0 1px #ffffff38, 0 30px 70px #0009;
+  transform-origin: 50% 50%;
+  transform: translate3d(0, 0, 0) scale(1.28);
+  will-change: transform;
+}
+.feature-video-device::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 112px;
+  height: 30px;
+  border-radius: 30px;
+  background: #000;
+  z-index: 500;
+  pointer-events: none;
+}
+.feature-video-stage[data-format='9:16'] { height: 1920px; }
+.feature-video-stage[data-format='9:16'] .feature-video-device {
+  top: 538px;
+  transform: translate3d(0, 0, 0) scale(1.7);
+}
+.feature-video-screen {
+  box-sizing: border-box;
+  min-height: 100%;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  isolation: isolate;
+}
+.feature-video-screen::-webkit-scrollbar { display: none; }
+.feature-video-status {
+  box-sizing: border-box;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 28px 0 32px;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+  font-variant-numeric: tabular-nums;
+  color: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.feature-video-status-icons { display: flex; gap: 6px; align-items: center; }
+.feature-video-status svg { display: block; flex-shrink: 0; }
+.feature-video-status .feature-video-signal { width: 18px; height: 12px; }
+.feature-video-status .feature-video-wifi { width: 17px; height: 12px; }
+.feature-video-status .feature-video-battery { width: 27px; height: 13px; }
+/* Put inside the product's bottom bar (positioned parent), as in Netflix.
+   If a bottom sheet covers that bar, do not force this indicator above the sheet. */
+.feature-video-home-indicator {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  width: 120px;
+  height: 4px;
+  border-radius: 4px;
+  background: #fff;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
